@@ -11,9 +11,9 @@ var hohohoElement = document.getElementById("coloredReindeer");
 
 var colorsReindeer = [];
 
-for (var i = 0; i < colors.length; i++) {
-	for (var j = 0; j < reindeer.length; j++) {
-colorsReindeer.push (colors[i] + reindeer [j]);
+for (var i = 0; i < reindeer.length; i++) {
+colorsReindeer.push (colors[i] + " " + reindeer [i]);
+	
 	}
-}
 
+console.log(colorsReindeer);
